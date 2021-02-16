@@ -13,7 +13,7 @@ function loadData() {
 }
 
 function createFile(filename, contents) {
-  var folder = DriveApp.getFolderById('19evMj2wraJjuTawHyxs-Ks2MtlUr6LjK');
+  var folder = DriveApp.getFolderById('※フォルダID※');
   var contentType = 'text/plain';
   var charset = 'utf-8';
 
