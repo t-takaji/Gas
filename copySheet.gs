@@ -3,7 +3,7 @@
  */
 function copySheet() {
   // 先頭シート取得
-  const spreadsheet = SpreadsheetApp.openById("1sH3iyw75CWY7x51yl8lt0x3wvvPzblGZ0a1sPNKLQds");
+  const spreadsheet = SpreadsheetApp.openById("※フォルダID※");
   const targetSheet = spreadsheet.getSheets()[0];
 
   // 先頭シート複製し、現在日時で改名
